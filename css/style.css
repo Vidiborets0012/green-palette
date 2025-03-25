@@ -8,6 +8,46 @@ html {
   box-sizing: inherit;
 }
 
+@font-face {
+  font-family: 'Inter-Medium';
+  src: url('../fonts/Inter-Medium.woff2') format('woff2');
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Inter-SemiBold';
+  src: url('../fonts/Inter-SemiBold.woff2') format('woff2');
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Inter-Bold';
+  src: url('../fonts/Inter-Bold.woff2') format('woff2');
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'BalsamiqSans-Regular';
+  src: url('../fonts/BalsamiqSans-Regular.woff2') format('woff2');
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Inter-Medium';
+  src: url('../fonts/KaiseiDecol-Regular.woff2') format('woff2');
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+}
+
 a {
   text-decoration: none;
   color: inherit;
@@ -20,6 +60,7 @@ a {
 }
 
 body {
+  font-family: 'Inter-Medium';
   font-weight: 500;
   font-size: 18px;
   color: #0c3e2e;
