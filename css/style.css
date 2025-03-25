@@ -63,6 +63,7 @@ body {
   font-family: 'Inter-Medium', sans-serif;
   font-weight: 500;
   font-size: 18px;
+  line-height: 1.2;
   color: #0c3e2e;
 }
 
@@ -71,6 +72,13 @@ body {
   background-repeat: no-repeat;
   background-size: contain;
   background-position: top center;
+}
+
+.header__inner {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 100vh;
 }
 
 .header__top {
@@ -91,4 +99,41 @@ body {
 
 .phone {
   color: #bb8a52;
+}
+
+.header__content-inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 0 22px;
+}
+
+.header__content-text {
+  max-width: 510px;
+}
+
+.header__title {
+  margin: 20px 0 80px;
+  max-width: 430px;
+  font-family: 'Inter-SemiBold', sans-serif;
+  font-weight: 600;
+  font-size: 48px;
+}
+
+.header__content-text--color {
+  color: #cc2e2e;
+}
+
+.header__content-btn {
+  display: inline-block;
+  margin-top: 50px;
+  padding: 20px 32px;
+  font-size: 20px;
+  background-color: #ffba00;
+}
+
+.header__text {
+  font-size: 24px;
+  text-align: center;
+  padding: 25px 0;
 }
