@@ -60,10 +60,17 @@ a {
 }
 
 body {
-  font-family: 'Inter-Medium';
+  font-family: 'Inter-Medium', sans-serif;
   font-weight: 500;
   font-size: 18px;
   color: #0c3e2e;
+}
+
+.header {
+  background-image: url('../images/header-bg.svg');
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: top center;
 }
 
 .header__top {
