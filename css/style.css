@@ -1,0 +1,46 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+::before,
+::after {
+  box-sizing: inherit;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.container {
+  max-width: 1220px;
+  padding: 0 10px;
+  margin: 0 auto;
+}
+
+body {
+  font-weight: 500;
+  font-size: 18px;
+  color: #0c3e2e;
+}
+
+.header__top {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 32px;
+}
+
+.menu__list {
+  display: flex;
+  gap: 0 30px;
+}
+
+.menu__link {
+  font-size: 16px;
+  text-transform: uppercase;
+}
+
+.phone {
+  color: #bb8a52;
+}
