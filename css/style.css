@@ -53,6 +53,12 @@ a {
   color: inherit;
 }
 
+ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
 .section {
   margin-bottom: 150px;
 }
@@ -71,7 +77,8 @@ a {
 }
 
 .why__text,
-.projects__text {
+.projects__text,
+.services__text {
   font-family: 'Inter-SemiBold', sans-serif;
   font-weight: 600;
   font-size: 28px;
@@ -262,4 +269,31 @@ body {
 
 .projects__gallery-item--two {
   grid-area: span 2;
+}
+
+.services {
+  margin-bottom: 110px;
+  padding: 20px 0 40px;
+  background-color: rgba(109, 151, 115, 0.1);
+}
+
+.services__text {
+  max-width: 587px;
+  margin-bottom: 30px;
+}
+
+.services__list {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  text-align: center;
+  padding: 0 25px 0;
+}
+
+.services__item-img {
+  margin-bottom: 20px;
+}
+
+.services__item-text {
+  font-size: 24px;
 }
