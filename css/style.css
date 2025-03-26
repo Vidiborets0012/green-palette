@@ -78,7 +78,8 @@ ul {
 
 .why__text,
 .projects__text,
-.services__text {
+.services__text,
+.prices__text {
   font-family: 'Inter-SemiBold', sans-serif;
   font-weight: 600;
   font-size: 28px;
@@ -296,4 +297,68 @@ body {
 
 .services__item-text {
   font-size: 24px;
+}
+
+.prices__text {
+  max-width: 730px;
+  margin-bottom: 50px;
+}
+
+.prices__box {
+  display: flex;
+  gap: 22px;
+}
+
+.prices__list {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 100%;
+  padding: 60px 55px 88px;
+  text-align: center;
+  border: 2px solid #ffba00;
+}
+
+.prices__item-first {
+  margin-bottom: 40px;
+  font-family: 'Inter-SemiBold', sans-serif;
+  font-weight: 600;
+  font-size: 36px;
+}
+
+.prices__item {
+  max-width: 442px;
+  font-size: 24px;
+  text-align: left;
+  /* margin: 0 auto; */
+}
+
+.prices__item + .prices__item {
+  margin-top: 10px;
+}
+
+.prices__item-sum {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  height: 94px;
+  padding-top: 50px;
+  margin-top: auto;
+  margin-bottom: 62px;
+  font-family: 'Inter-Bold';
+  font-weight: 700;
+  font-size: 36px;
+  text-align: center;
+}
+
+.prices__item-sum sup {
+  padding-bottom: 20px;
+  font-size: 15px;
+}
+
+.prices__item-btn {
+  display: block;
+  padding: 20px;
+  font-size: 20px;
+  background-color: #ffba00;
 }
