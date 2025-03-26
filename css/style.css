@@ -187,3 +187,44 @@ body {
   font-weight: 600;
   font-size: 48px;
 }
+
+.why__text {
+  max-width: 583px;
+  margin-bottom: 40px;
+  font-family: 'Inter-SemiBold', sans-serif;
+  font-weight: 600;
+  font-size: 28px;
+}
+
+.why__inner {
+  display: flex;
+  align-items: center;
+  gap: 0 22px;
+}
+
+.why__list {
+  padding-left: 10px;
+  list-style-type: none;
+  counter-reset: why-counter;
+  font-family: 'Inter-SemiBold', sans-serif;
+  font-weight: 600;
+  font-size: 28px;
+}
+
+.why__item::before {
+  content: counter(why-counter);
+  counter-increment: why-counter;
+  padding-right: 5px;
+}
+
+.why__item:not(:last-child) {
+  margin-bottom: 55px;
+}
+
+.why__item-pl--60 {
+  padding-left: 60px;
+}
+
+.why__item-pl--90 {
+  padding-left: 90px;
+}
