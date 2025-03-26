@@ -299,7 +299,7 @@ body {
   font-size: 24px;
 }
 
-.prices__text {
+/* .prices__text {
   max-width: 730px;
   margin-bottom: 50px;
 }
@@ -330,7 +330,6 @@ body {
   max-width: 442px;
   font-size: 24px;
   text-align: left;
-  /* margin: 0 auto; */
 }
 
 .prices__item + .prices__item {
@@ -357,6 +356,59 @@ body {
 }
 
 .prices__item-btn {
+  display: block;
+  padding: 20px;
+  font-size: 20px;
+  background-color: #ffba00;
+} */
+
+.prices__text {
+  max-width: 730px;
+  margin-bottom: 50px;
+}
+
+.prices-list {
+  display: flex;
+  gap: 22px;
+}
+
+.prices-list__item {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 100%;
+  padding: 60px 55px 88px;
+  text-align: center;
+  border: 2px solid #ffba00;
+}
+
+.prices-list__item-title {
+  margin-bottom: 40px;
+  font-family: 'Inter-SemiBold', sans-serif;
+  font-weight: 600;
+  font-size: 36px;
+}
+
+.prices-list__list {
+  margin-bottom: auto;
+  padding: 0 18px 0;
+  font-size: 24px;
+  text-align: left;
+}
+
+.prices-list__list-services + .prices-list__list-services {
+  margin-top: 10px;
+}
+
+.prices-list__item-sum {
+  padding-top: 60px;
+  margin-bottom: 62px;
+  font-family: 'Inter-Bold';
+  font-weight: 700;
+  font-size: 36px;
+}
+
+.prices-list__item-btn {
   display: block;
   padding: 20px;
   font-size: 20px;
