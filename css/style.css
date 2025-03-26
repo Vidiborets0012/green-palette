@@ -41,7 +41,7 @@ html {
 }
 
 @font-face {
-  font-family: 'Inter-Medium';
+  font-family: 'KaiseiDecol-Regular';
   src: url('../fonts/KaiseiDecol-Regular.woff2') format('woff2');
   font-style: normal;
   font-weight: 400;
@@ -413,4 +413,36 @@ body {
   padding: 20px;
   font-size: 20px;
   background-color: #ffba00;
+}
+
+.work__list {
+  display: flex;
+  justify-content: center;
+  gap: 0 15px;
+  flex-wrap: wrap;
+  max-width: 1060px;
+  list-style-type: none;
+  counter-reset: work-counter;
+}
+
+.work__item {
+  position: relative;
+  padding-left: 64px;
+  font-family: 'Inter-SemiBold', sans-serif;
+  font-weight: 600;
+  font-size: 28px;
+  line-height: 185px;
+}
+
+.work__item::before {
+  position: absolute;
+  left: 0;
+  content: counter(work-counter, decimal-leading-zero);
+  counter-increment: work-counter;
+  font-family: 'KaiseiDecol-Regular', sans-serif;
+  font-weight: 400;
+  font-size: 128px;
+  line-height: 1.45;
+  letter-spacing: -0.06em;
+  color: rgba(109, 151, 115, 0.2);
 }
