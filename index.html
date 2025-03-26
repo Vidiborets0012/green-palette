@@ -18,15 +18,18 @@
                 class="logo-img"
                 src="images/logo.svg"
                 alt="зображення логотипу Зелена палітра"
+                width="100"
+                height="64"
+                loading="lazy"
               />
             </a>
             <nav class="menu">
               <ul class="menu__list">
                 <li class="menu__item">
-                  <a class="menu__link" href="#">Про нас</a>
+                  <a class="menu__link" href="#about">Про нас</a>
                 </li>
                 <li class="menu__item">
-                  <a class="menu__link" href="#">Проекти</a>
+                  <a class="menu__link" href="#projects">Проекти</a>
                 </li>
                 <li class="menu__item">
                   <a class="menu__link" href="#">Послуги</a>
@@ -56,6 +59,9 @@
                 class="header__content-img"
                 src="images/header-content.png"
                 alt="зображення ландшафту"
+                width="589"
+                height="560"
+                loading="lazy"
               />
             </div>
           </div>
@@ -64,11 +70,18 @@
       </div>
     </header>
     <main class="main">
-      <section class="about section">
+      <section class="about section" id="about">
         <div class="container">
           <h2 class="title">Про нас</h2>
           <div class="about__inner">
-            <img class="about__inner-img" src="images/about-img.png" alt="" />
+            <img
+              class="about__inner-img"
+              src="images/about-img.png"
+              alt="Дівчина тримає на витягнутих руках рослину перед посадкою у грунт"
+              width="588"
+              height="456"
+              loading="lazy"
+            />
             <div class="about__inner-box">
               <p class="about__inner-text">
                 <span class="green-palette">Зелена Палітра</span> прагне досягти гармонії між
@@ -108,6 +121,9 @@
               class="why__img"
               src="images/why-img.png"
               alt="Дівчини з ножицями формує крону рослини"
+              width="588"
+              height="636"
+              loading="lazy"
             />
             <ol class="why__list">
               <li class="why__item">Досвід</li>
@@ -117,6 +133,72 @@
               <li class="why__item why__item-pl--60">Ціна та оплата</li>
               <li class="why__item">Гарантія</li>
             </ol>
+          </div>
+        </div>
+      </section>
+      <section class="projects" id="projects">
+        <div class="container">
+          <h2 class="title">Наші проекти</h2>
+          <p class="projects__text">
+            Ми гарантуємо, що ваші очі будуть радіти кожен раз, коли ви будете насолоджуватися вашим
+            новим ландшафтом.
+          </p>
+          <div class="projects__gallery">
+            <div class="projects__gallery-item">
+              <p class="projects__gallery-title">с. Віта Почтова, Київська обл.</p>
+              <img
+                class="projects__gallery-img"
+                src="images/gallery/gallery-1.png"
+                alt="Пергола в саду, оточена деревами та кущами, з доріжкою з бетонних плит."
+                width="396"
+                height="279"
+                loading="lazy"
+              />
+            </div>
+            <div class="projects__gallery-item">
+              <p class="projects__gallery-title">с. Гатне, Київська обл.</p>
+              <img
+                class="projects__gallery-img"
+                src="images/gallery/gallery-2.png"
+                alt="Кам'яний внутрішній дворик з круглим каміном, оточеним дерев'яними кріслами з м'якими подушками на фоні будинку та дерев."
+                width="370"
+                height="577"
+                loading="lazy"
+              />
+            </div>
+            <div class="projects__gallery-item">
+              <p class="projects__gallery-title">м. Знам’янка, Кіровоградська обл.</p>
+              <img
+                class="projects__gallery-img"
+                src="images/gallery/gallery-3.png"
+                alt="Фотографія ряду круглих, підстрижених кущів вздовж тротуару."
+                width="393"
+                height="279"
+                loading="lazy"
+              />
+            </div>
+            <div class="projects__gallery-item">
+              <img
+                class="projects__gallery-img"
+                src="images/gallery/gallery-4.png"
+                alt="Фотографія будинку з темним черепичним дахом, розташованого в саду з доріжкою з квадратних плит."
+                width="396"
+                height="279"
+                loading="lazy"
+              />
+              <p class="projects__gallery-title">м. Винники, Львівська обл.</p>
+            </div>
+            <div class="projects__gallery-item">
+              <img
+                class="projects__gallery-img"
+                src="images/gallery/gallery-5.png"
+                alt="Фотографія садових гойдалок на задньому дворі, оточених деревами та кущами з червоними квітами."
+                width="394"
+                height="279"
+                loading="lazy"
+              />
+              <p class="projects__gallery-title">м. Умань, Черкаська обл.</p>
+            </div>
           </div>
         </div>
       </section>
