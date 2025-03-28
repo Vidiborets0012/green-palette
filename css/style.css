@@ -81,7 +81,8 @@ ul {
 .services__text,
 .prices__text,
 .team__text,
-.contact-form__text {
+.contact-form__text,
+.contacts__text {
   font-family: 'Inter-SemiBold', sans-serif;
   font-weight: 600;
   font-size: 28px;
@@ -596,4 +597,21 @@ body {
 
 .contact-form__img--mod {
   grid-column: 1/-1;
+}
+
+.contacts__inner {
+  display: flex;
+  gap: 22px;
+}
+
+.contacts__text {
+  margin-bottom: 70px;
+}
+
+.contacts__info {
+  font-size: 20px;
+}
+
+.contacts__info dt {
+  margin-top: 20px;
 }
