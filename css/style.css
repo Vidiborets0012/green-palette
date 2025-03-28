@@ -80,7 +80,8 @@ ul {
 .projects__text,
 .services__text,
 .prices__text,
-.team__text {
+.team__text,
+.contact-form__text {
   font-family: 'Inter-SemiBold', sans-serif;
   font-weight: 600;
   font-size: 28px;
@@ -517,4 +518,82 @@ body {
 
 .accordeon__text {
   display: none;
+}
+
+.contact-form__inner {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 0 22px;
+}
+
+.contact-form__text {
+  margin-bottom: 15px;
+}
+
+.form__text {
+  margin-bottom: 15px;
+}
+
+.form__input {
+  display: inline-block;
+  width: 100%;
+  max-width: 520px;
+  margin-bottom: 10px;
+  margin-left: 28px;
+  padding: 5px 10px;
+  font-family: 'Inter-Medium', sans-serif;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 1.2;
+  color: #0c3e2e;
+  border: none;
+  border-bottom: 1px solid #0c3e2e;
+}
+
+.form__input::placeholder {
+  font-family: 'Inter-Medium', sans-serif;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 1.2;
+  color: #d9d9d9;
+}
+
+.form__btn {
+  display: inline-block;
+  margin-top: 20px;
+  margin-bottom: 30px;
+  padding: 20px 41px;
+  font-family: 'Inter-Medium', sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+  background-color: #ffba00;
+  border: none;
+  cursor: pointer;
+}
+
+.form__link {
+  display: flex;
+  align-items: center;
+  gap: 35px;
+}
+
+.form__link-text {
+  font-size: 24px;
+  line-height: 1;
+  border-bottom: 1px solid #0c3e2e;
+}
+
+.contact-form__images {
+  display: grid;
+  gap: 20px;
+  grid-template-columns: repeat(2, 1fr);
+  /* grid-template-rows: repeat(2, 1fr); */
+}
+
+.contact-form__img {
+  border-radius: 40px;
+}
+
+.contact-form__img--mod {
+  grid-column: 1/-1;
 }
