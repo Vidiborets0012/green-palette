@@ -79,7 +79,8 @@ ul {
 .why__text,
 .projects__text,
 .services__text,
-.prices__text {
+.prices__text,
+.team__text {
   font-family: 'Inter-SemiBold', sans-serif;
   font-weight: 600;
   font-size: 28px;
@@ -445,4 +446,28 @@ body {
   line-height: 1.45;
   letter-spacing: -0.06em;
   color: rgba(109, 151, 115, 0.2);
+}
+
+.team__text {
+  margin-bottom: 50px;
+  max-width: 730px;
+}
+
+.team__list {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+}
+
+.team__item {
+  width: 200px;
+}
+
+.team__item-img {
+  margin-bottom: 10px;
+}
+
+.team__item-name {
+  margin-bottom: 15px;
+  text-align: center;
 }
