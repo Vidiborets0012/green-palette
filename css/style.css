@@ -615,3 +615,53 @@ body {
 .contacts__info dt {
   margin-top: 20px;
 }
+
+.footer {
+  padding: 40px 0 47px;
+  background-color: rgba(109, 151, 115, 0.1);
+}
+
+.footer__inner {
+  display: flex;
+  gap: 0 22px;
+}
+
+.footer__left {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 18px 0;
+}
+
+.footer__menu {
+  font-size: 16px;
+  text-transform: uppercase;
+}
+
+.footer__menu-item + .footer__menu-item {
+  margin-top: 20px;
+}
+
+.social__list {
+  display: flex;
+  gap: 0 20px;
+  font-size: 0;
+}
+
+.footer__right {
+  width: 100%;
+  padding-left: 30px;
+}
+
+.footer__logo {
+  display: inline-block;
+  margin-bottom: 42px;
+}
+
+.footer__text {
+  max-width: 321px;
+  font-family: 'Inter-SemiBold', sans-serif;
+  font-weight: 600;
+  font-size: 36px;
+}
