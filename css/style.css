@@ -599,6 +599,41 @@ body {
   grid-column: 1/-1;
 }
 
+.reviews__item {
+  font-size: 24px;
+}
+
+.reviews__item-name {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.reviews__item-photo {
+  margin-right: 20px;
+  border-radius: 50%;
+}
+
+.reviews__slider {
+  padding-bottom: 55px;
+}
+
+.reviews__item-arrow {
+  position: absolute;
+  bottom: 0;
+  cursor: pointer;
+}
+
+.reviews__item-next {
+  right: 50%;
+  transform: translateX(65px);
+}
+
+.reviews__item-prev {
+  left: 50%;
+  transform: translateX(-65px);
+}
+
 .contacts__inner {
   display: flex;
   gap: 22px;

@@ -1,6 +1,10 @@
-const swiper = new Swiper('.swiper', {
+const swiper = new Swiper('.reviews__slider', {
+  loop: true,
+  slidesPerView: 2,
+  spaceBetween: 22,
+
   navigation: {
-    nextEl: '.swiper-button-next',
-    prevEl: '.swiper-button-prev',
+    nextEl: '.reviews__item-next',
+    prevEl: '.reviews__item-prev',
   },
 });
