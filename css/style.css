@@ -76,16 +76,23 @@ ul {
   font-size: 24px;
 }
 
-.why__text,
-.projects__text,
-.services__text,
-.prices__text,
-.team__text,
-.contact-form__text,
+.text,
 .contacts__text {
   font-family: 'Inter-SemiBold', sans-serif;
   font-weight: 600;
   font-size: 28px;
+}
+
+.inner-decor {
+  position: relative;
+}
+
+.decor {
+  position: absolute;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  z-index: -1;
 }
 
 .container {
@@ -174,10 +181,22 @@ body {
   padding: 25px 0;
 }
 
+/* .main {
+  position: relative;
+} */
+
 .about__inner {
   display: flex;
   align-items: center;
   gap: 22px;
+}
+
+.about__decor {
+  left: -213px;
+  bottom: -160px;
+  width: 267px;
+  height: 240px;
+  background-image: url('../images/decor/decor-1.svg');
 }
 
 .about__inner-text {
@@ -204,6 +223,14 @@ body {
   font-family: 'Inter-SemiBold', sans-serif;
   font-weight: 600;
   font-size: 48px;
+}
+
+.why__decor {
+  top: -343px;
+  right: -194px;
+  width: 464px;
+  height: 552px;
+  background-image: url(../images/decor/decor-2.svg);
 }
 
 .why__text {
@@ -254,10 +281,19 @@ body {
 }
 
 .projects__gallery {
+  position: relative;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: repeat(2, 1fr);
   gap: 20px;
+}
+
+.projects__decor {
+  top: -540px;
+  left: -201px;
+  width: 228px;
+  height: 333px;
+  background-image: url('../images/decor/decor-3.svg');
 }
 
 /* .projects__gallery-title {
@@ -364,6 +400,13 @@ body {
   font-size: 20px;
   background-color: #ffba00;
 } */
+.prices__decor {
+  top: -62px;
+  right: -200px;
+  width: 311px;
+  height: 408px;
+  background-image: url('../images/decor/decor-4.svg');
+}
 
 .prices__text {
   max-width: 730px;
@@ -416,6 +459,14 @@ body {
   padding: 20px;
   font-size: 20px;
   background-color: #ffba00;
+}
+
+.work__decor {
+  top: -194px;
+  right: -200px;
+  width: 456px;
+  height: 658px;
+  background-image: url('../images/decor/decor-5.svg');
 }
 
 .work__list {
@@ -476,6 +527,14 @@ body {
 
 .questions {
   margin-bottom: 110px;
+}
+
+.questions__decor {
+  top: 204px;
+  left: -218px;
+  width: 400px;
+  height: 499px;
+  background-image: url('../images/decor/decor-6.svg');
 }
 
 .accordeon {
@@ -599,6 +658,14 @@ body {
   grid-column: 1/-1;
 }
 
+.reviews__decor {
+  left: -200px;
+  bottom: -376px;
+  width: 354px;
+  height: 553px;
+  background-image: url('../images/decor/decor-7.svg');
+}
+
 .reviews__item {
   font-size: 24px;
 }
@@ -637,6 +704,14 @@ body {
 .contacts__inner {
   display: flex;
   gap: 22px;
+}
+
+.contacts__decor {
+  right: -209px;
+  bottom: -150px;
+  width: 318px;
+  height: 514px;
+  background-image: url('../images/decor/decor-8.svg');
 }
 
 .contacts__text {
