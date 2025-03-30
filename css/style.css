@@ -59,8 +59,12 @@ ul {
   list-style-type: none;
 }
 
-.section {
+.section-mb {
   margin-bottom: 150px;
+}
+
+.section-mb {
+  margin-bottom: 110px;
 }
 
 .title {
@@ -96,8 +100,8 @@ ul {
 }
 
 .container {
-  max-width: 1220px;
-  padding: 0 10px;
+  max-width: 1240px;
+  padding: 0 20px;
   margin: 0 auto;
 }
 
@@ -271,10 +275,6 @@ body {
   padding-left: 90px;
 }
 
-.projects {
-  margin-bottom: 130px;
-}
-
 .projects__text {
   max-width: 595px;
   margin-bottom: 40px;
@@ -312,7 +312,6 @@ body {
 }
 
 .services {
-  margin-bottom: 110px;
   padding: 20px 0 40px;
   background-color: rgba(109, 151, 115, 0.1);
 }
@@ -525,10 +524,6 @@ body {
 .team__item-name {
   margin-bottom: 15px;
   text-align: center;
-}
-
-.questions {
-  margin-bottom: 110px;
 }
 
 .questions__decor {
@@ -776,4 +771,17 @@ body {
   font-family: 'Inter-SemiBold', sans-serif;
   font-weight: 600;
   font-size: 36px;
+}
+
+@media (max-width: 1000px) {
+  .section-mb,
+  .section-ms {
+    margin-bottom: 100px;
+  }
+}
+
+@media (max-width: 768px) {
+}
+
+@media (max-width: 360px) {
 }
