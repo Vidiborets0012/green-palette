@@ -499,6 +499,8 @@ body {
   line-height: 1.45;
   letter-spacing: -0.06em;
   color: rgba(109, 151, 115, 0.2);
+  -webkit-text-stroke: 1px rgb(109, 151, 115);
+  /* text-stroke: 1px rgb(109, 151, 115); */
 }
 
 .team__text {
