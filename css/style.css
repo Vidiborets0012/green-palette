@@ -308,24 +308,19 @@ body {
 }
 
 .projects__gallery {
-  position: relative;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: repeat(2, 1fr);
   gap: 20px;
 }
 
-/* .projects__decor {
-  top: -540px;
-  left: -201px;
+.projects__decor {
+  top: -285px;
+  left: 0;
   width: 228px;
   height: 333px;
   background-image: url('../images/decor/decor-3.svg');
-} */
-
-/* .projects__gallery-title {
-    text-align: center;
-} */
+}
 
 .projects__gallery-item {
   display: flex;
