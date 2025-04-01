@@ -1202,6 +1202,10 @@ body {
   .work__list {
     gap: 0 15px;
   }
+
+  .footer__text {
+    font-size: 24px;
+  }
 }
 
 @media (max-width: 698px) {
@@ -1383,6 +1387,18 @@ body {
     padding-top: 20px;
     margin-bottom: 20px;
     font-size: 28px;
+  }
+
+  .footer__left {
+    align-items: flex-start;
+  }
+
+  .footer__right {
+    padding-left: 0;
+  }
+
+  .footer__text {
+    font-size: 18px;
   }
 }
 
