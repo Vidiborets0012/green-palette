@@ -322,15 +322,28 @@ body {
   background-image: url('../images/decor/decor-3.svg');
 }
 
-.projects__gallery-item {
+/* .projects__gallery-item {
   display: flex;
   flex-direction: column;
   align-items: center;
   gap: 20px;
+} */
+
+.project__gallery-box {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  text-align: center;
 }
 
 .projects__gallery-item--two {
+  display: grid;
+  gap: 20px;
   grid-area: span 2;
+}
+
+.projects__gallery-title--bottom {
+  visibility: hidden;
 }
 
 .services {
@@ -798,8 +811,7 @@ body {
 @media (max-width: 1250px) {
   .projects__gallery-img {
     max-width: 100%;
-    height: auto;
-    /* object-fit: cover; */
+    max-height: 100%;
   }
 
   .projects__gallery-title {
@@ -822,9 +834,9 @@ body {
     font-size: 14px;
   }
 
-  .projects__gallery {
+  /* .projects__gallery {
     gap: 20px 10px;
-  }
+  } */
 }
 
 @media (max-width: 1000px) {
@@ -884,20 +896,47 @@ body {
     padding-left: 60px;
   }
 
-  .projects__gallery {
+  /* .projects__gallery {
     align-items: flex-end;
+  } */
+
+  .projects__gallery {
+    gap: 20px 10px;
   }
 
-  .projects__gallery-item {
+  .project__gallery-box {
+    gap: 10px;
+  }
+
+  .projects__gallery-title--top {
+    visibility: hidden;
+  }
+
+  .projects__gallery-title--bottom {
+    visibility: visible;
+    text-align: center;
+  }
+
+  .projects__gallery-img {
+    /* width: 300px; */
+    max-height: 100%;
+  }
+
+  /* .projects__gallery-img--size {
+    width: 300px;
+    height: 380px;
+  } */
+
+  /* .projects__gallery-item {
     gap: 10px;
   }
 
   .projects__gallery-img--order {
     order: -1;
-  }
+  } */
 }
 
-@media (max-width: 999px) {
+/* @media (max-width: 999px) {
   .projects__gallery-item--two {
     display: none;
   }
@@ -905,7 +944,7 @@ body {
   .projects__gallery {
     grid-template-columns: repeat(2, 1fr);
   }
-}
+} */
 
 @media (max-width: 960px) {
   .about__inner-listbox--desc {
@@ -1021,6 +1060,14 @@ body {
 
   .why__item-pl--70 {
     padding-left: 70px;
+  }
+
+  .projects__gallery-item--two {
+    display: none;
+  }
+
+  .projects__gallery {
+    grid-template-columns: repeat(2, 1fr);
   }
 }
 
