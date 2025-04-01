@@ -434,9 +434,10 @@ body {
   font-size: 20px;
   background-color: #ffba00;
 } */
+
 .prices__decor {
   top: -62px;
-  right: -200px;
+  right: 0;
   width: 311px;
   height: 408px;
   background-image: url('../images/decor/decor-4.svg');
