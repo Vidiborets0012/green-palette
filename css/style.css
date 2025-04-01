@@ -497,8 +497,8 @@ body {
 }
 
 .work__decor {
-  top: -194px;
-  right: -200px;
+  top: -193px;
+  right: 0;
   width: 456px;
   height: 658px;
   background-image: url('../images/decor/decor-5.svg');
