@@ -571,7 +571,9 @@ body {
 }
 
 .accordeon {
-  column-count: 2;
+  /* column-count: 2; */
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
   gap: 0 22px;
 }
 
@@ -611,6 +613,11 @@ body {
 
 .accordeon__text {
   display: none;
+  padding-right: 70px;
+}
+
+.accordeon__item.accordeon__item--active .accordeon__text {
+  display: block;
 }
 
 .contact-form__inner {
