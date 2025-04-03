@@ -563,8 +563,8 @@ body {
 }
 
 .questions__decor {
-  top: 204px;
-  left: -218px;
+  bottom: -290px;
+  left: 0;
   width: 400px;
   height: 499px;
   background-image: url('../images/decor/decor-6.svg');
