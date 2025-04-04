@@ -624,6 +624,7 @@ body {
 .contact-form__inner {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
+  align-items: end;
   gap: 0 22px;
 }
 
@@ -675,12 +676,13 @@ body {
 .form__link {
   display: flex;
   align-items: center;
-  gap: 35px;
+  gap: 15px;
 }
 
 .form__link-text {
   font-size: 24px;
   line-height: 1;
+  white-space: nowrap;
   border-bottom: 1px solid #0c3e2e;
 }
 
@@ -688,7 +690,7 @@ body {
   display: grid;
   gap: 20px;
   grid-template-columns: repeat(2, 1fr);
-  /* grid-template-rows: repeat(2, 1fr); */
+  padding-left: 10px;
 }
 
 .contact-form__img {
@@ -843,9 +845,19 @@ body {
     font-size: 14px;
   }
 
-  /* .projects__gallery {
-    gap: 20px 10px;
-  } */
+  .form__input {
+    margin-left: 0;
+    max-width: 470px;
+  }
+
+  .form__btn {
+    max-width: 470px;
+    width: 100%;
+  }
+
+  .contact-form__img {
+    max-width: 100%;
+  }
 }
 
 @media (max-width: 1140px) {
@@ -986,6 +998,31 @@ body {
 
   .accordeon__item {
     margin-bottom: 0;
+  }
+
+  .contact-form__images {
+    gap: 20px;
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .contact-form__img--two {
+    display: none;
+  }
+
+  .contact-form__img--one {
+    width: 100%;
+    max-width: 470px;
+    height: 277px;
+    object-fit: cover;
+  }
+
+  .contact-form__images {
+    padding-left: 0;
+  }
+
+  .contact-form__text {
+    margin-bottom: 20px;
+    font-size: 24px;
   }
 }
 
@@ -1149,6 +1186,40 @@ body {
     gap: 20px;
     max-width: 470px;
     margin: 0 auto;
+  }
+
+  .contact-form__inner {
+    display: block;
+  }
+
+  .form__text {
+    max-width: 350px;
+  }
+
+  .form__input {
+    max-width: 660px;
+  }
+
+  .form__btn {
+    display: block;
+    max-width: 345px;
+    margin: 10px auto;
+  }
+
+  .form__link {
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+
+  .contact-form__img--one {
+    display: none;
+  }
+
+  .contact-form__img {
+    width: 100%;
+    max-width: 100%;
+    object-fit: cover;
+    height: 201px;
   }
 }
 
@@ -1467,6 +1538,14 @@ body {
   .footer__text {
     font-size: 18px;
   }
+
+  .form__link {
+    justify-content: flex-start;
+  }
+
+  .form__link-text {
+    font-size: 16px;
+  }
 }
 
 @media (max-width: 360px) {
@@ -1536,5 +1615,29 @@ body {
 
   .accordeon__title::after {
     right: 16px;
+  }
+
+  .contact-form__text {
+    margin-bottom: 10px;
+    font-size: 16px;
+  }
+
+  .form__text {
+    margin-bottom: 30px;
+    font-size: 14px;
+  }
+
+  .form__input,
+  .form__input::placeholder {
+    font-size: 16px;
+  }
+
+  .form__btn {
+    margin-top: 30px;
+    margin-bottom: 40px;
+  }
+
+  .contact-form__img {
+    height: 190px;
   }
 }
