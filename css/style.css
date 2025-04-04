@@ -965,6 +965,14 @@ body {
   .services__item-text {
     font-size: 20px;
   }
+
+  .team__text {
+    margin-bottom: 30px;
+  }
+
+  .team__list {
+    gap: 40px;
+  }
 }
 
 @media (max-width: 960px) {
@@ -1003,6 +1011,16 @@ body {
 
   .services__item {
     width: 47%;
+  }
+
+  .team__list {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px 60px;
+  }
+
+  .team__item {
+    width: 217px;
   }
 }
 
@@ -1212,6 +1230,12 @@ body {
 
   .footer__text {
     font-size: 24px;
+  }
+
+  .team__text {
+    max-width: 100%;
+    margin-bottom: 20px;
+    font-size: 18px;
   }
 }
 
@@ -1455,5 +1479,17 @@ body {
 
   .work__list {
     gap: 15px 4px;
+  }
+
+  .team__text {
+    font-size: 14px;
+  }
+
+  .team__text span {
+    display: none;
+  }
+
+  .team__item-descr {
+    font-size: 14px;
   }
 }
