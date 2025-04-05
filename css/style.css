@@ -750,7 +750,7 @@ body {
 }
 
 .contacts__decor {
-  right: -209px;
+  right: 0;
   bottom: -150px;
   width: 318px;
   height: 514px;
