@@ -1,11 +1,25 @@
 const swiper = new Swiper('.reviews__slider', {
   loop: true,
-  slidesPerView: 2,
-  spaceBetween: 22,
 
   navigation: {
     nextEl: '.reviews__item-next',
     prevEl: '.reviews__item-prev',
+  },
+
+  breakpoints: {
+    320: {
+      slidesPerView: 1,
+      grid: {
+        rows: 2,
+        fill: 'row',
+      },
+      spaceBetween: 20,
+    },
+
+    640: {
+      slidesPerView: 2,
+      spaceBetween: 22,
+    },
   },
 });
 
