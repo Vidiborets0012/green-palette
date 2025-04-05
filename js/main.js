@@ -23,6 +23,27 @@ const swiper = new Swiper('.reviews__slider', {
   },
 });
 
+const swiperTeam = new Swiper('.team__inner', {
+  loop: true,
+
+  navigation: {
+    nextEl: '.team__item-next',
+    prevEl: '.team__item-prev',
+  },
+
+  breakpoints: {
+    0: {
+      slidesPerView: 2,
+
+      spaceBetween: 40,
+    },
+
+    361: {
+      slidesPerView: 0,
+    },
+  },
+});
+
 const menuBtn = document.querySelector('.menu__btn');
 const menuList = document.querySelector('.menu__list');
 
