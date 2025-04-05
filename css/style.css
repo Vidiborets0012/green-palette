@@ -702,7 +702,7 @@ body {
 }
 
 .reviews__decor {
-  left: -200px;
+  left: 0;
   bottom: -376px;
   width: 354px;
   height: 553px;
