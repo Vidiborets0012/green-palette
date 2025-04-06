@@ -90,8 +90,7 @@ ul {
 
 .decor__wrapper {
   position: relative;
-  max-width: 1620px;
-  padding: 0 10px;
+  max-width: 1600px;
   margin: 0 auto;
 }
 
@@ -1076,6 +1075,68 @@ body {
     color: #0c3e2e;
     background-color: #ffba00;
   }
+
+  .decor__wrapper {
+    max-width: 1000px;
+  }
+
+  .about__decor {
+    left: auto;
+    right: 0;
+    bottom: -343px;
+    transform: scaleX(-1);
+  }
+
+  .why__decor {
+    top: auto;
+    bottom: -360px;
+    right: 0;
+    width: 237px;
+    height: 297px;
+  }
+
+  .projects__decor {
+    display: none;
+  }
+
+  .prices__decor {
+    top: -87px;
+    right: 0;
+    width: 222px;
+    height: 290px;
+  }
+
+  .work__decor {
+    top: auto;
+    bottom: -252px;
+    right: 0;
+    width: 180px;
+    height: 325px;
+  }
+
+  .questions__decor {
+    bottom: -143px;
+    width: 186px;
+    height: 197px;
+    background-image: url(../images/decor/decor-9.svg);
+  }
+
+  .reviews__decor {
+    left: 0;
+    bottom: -150px;
+    width: 274px;
+    height: 174px;
+    background-image: url(../images/decor/decor-10.svg);
+  }
+
+  .contacts__decor {
+    right: 0;
+    bottom: -96px;
+    width: 213px;
+    height: 260px;
+    background-image: url(../images/decor/decor-7.svg);
+    transform: scaleX(-1);
+  }
 }
 
 @media (max-width: 960px) {
@@ -1413,6 +1474,47 @@ body {
 
   .contacts__inner {
     gap: 30px 22px;
+  }
+
+  .decor__wrapper {
+    max-width: 768px;
+  }
+
+  .why__decor {
+    bottom: -360px;
+    width: 163px;
+    height: 147px;
+  }
+
+  .projects__decor {
+    display: none;
+  }
+
+  .prices__decor {
+    top: -87px;
+    width: 111px;
+    height: 211px;
+  }
+
+  .work__decor {
+    bottom: -252px;
+    width: 156px;
+    height: 270px;
+  }
+
+  .questions__decor {
+    left: auto;
+    right: 0;
+    bottom: -143px;
+    transform: scaleX(-1);
+  }
+
+  .reviews__decor {
+    display: none;
+  }
+
+  .contacts__decor {
+    bottom: 70px;
   }
 }
 
@@ -1772,5 +1874,45 @@ body {
   .contacts__info dt,
   .contacts__info dd {
     margin-left: 66px;
+  }
+
+  .decor__wrapper {
+    max-width: 360px;
+  }
+
+  .about__decor {
+    bottom: -105px;
+    width: 103px;
+    height: 95px;
+  }
+
+  .why__decor {
+    bottom: -134px;
+    width: 119px;
+    height: 149px;
+  }
+
+  .prices__decor {
+    top: -46px;
+    width: 54px;
+    height: 99px;
+  }
+
+  .work__decor {
+    bottom: -133px;
+    width: 85px;
+    height: 134px;
+  }
+
+  .questions__decor {
+    bottom: -112px;
+    width: 123px;
+    height: 114px;
+  }
+
+  .contacts__decor {
+    bottom: 100px;
+    width: 111px;
+    height: 196px;
   }
 }
